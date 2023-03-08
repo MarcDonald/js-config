@@ -1,7 +1,11 @@
 {
 	"name": "@marcdonald/eslint-config",
 	"version": "1.2.8",
-	"repository": "https://github.com/MarcDonald/js-config/packages/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcdonald/js-config.git",
+    "directory": "packages/eslint-config"
+  },
 	"description": "Standard eslint configs",
 	"main": "index.js",
 	"author": "Marc Donald",
