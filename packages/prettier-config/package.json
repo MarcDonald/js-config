@@ -1,6 +1,7 @@
 {
   "name": "@marcdonald/prettier-config",
   "version": "1.0.2",
+	"repository": "https://github.com/MarcDonald/js-config/packages/prettier-config",
   "description": "Standard prettier config",
   "main": "index.js",
   "author": "Marc Donald"
