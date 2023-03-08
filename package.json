@@ -8,9 +8,13 @@
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.5.1"
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "lerna": "^6.5.1",
+    "husky": "^8.0.3"
   },
   "scripts": {
-    "publish": "lerna publish --yes --message 'chore: release new versions' --conventional-commits"
+    "publish": "lerna publish --yes --message 'chore: release new versions' --conventional-commits",
+    "prepare": "husky install"
   }
 }
