@@ -4,9 +4,11 @@
 	"version": "independent",
 	"packages": ["packages/*"],
 	"ignoreChanges": [
-		"**/CHANGELOG.md",
-		"**/node_modules/**",
-		"**/*.md"
+    "**/CHANGELOG.md",
+    "**/node_modules/**",
+    "**/package.json",
+    "**/package-lock.json",
+    "**/*.md"
 	],
 	"command": {
 		"publish": {
