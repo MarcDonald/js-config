@@ -1,0 +1,13 @@
+{
+  "name": "js-config",
+  "description": "Monorepo for JS config packages",
+  "author": "Marc Donald",
+  "license": "MIT",
+  "repository": "https://github.com/marcdonald/js-config",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}
