@@ -10,11 +10,14 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
-    "lerna": "^6.5.1",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "lerna": "^6.5.1"
   },
   "scripts": {
     "publish": "lerna publish --yes --message 'chore: release new versions' --conventional-commits",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/config-lerna-scopes": "^17.4.2"
   }
 }
