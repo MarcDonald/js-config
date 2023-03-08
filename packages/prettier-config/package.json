@@ -1,0 +1,7 @@
+{
+  "name": "@marcdonald/prettier-config",
+  "version": "1.0.0",
+  "description": "Standard prettier config",
+  "main": "index.js",
+  "author": "Marc Donald"
+}
