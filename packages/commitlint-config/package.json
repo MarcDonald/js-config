@@ -1,0 +1,22 @@
+{
+  "name": "@marcdonald/commitlint-config",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcdonald/js-config.git",
+    "directory": "packages/commitlint-config"
+  },
+  "description": "Standard commitlint config",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Marc Donald",
+  "dependencies": {
+    "@commitlint/config-conventional": "17.4.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.4.4"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "17.x"
+  }
+}
