@@ -26,7 +26,7 @@ module.exports = {
 			},
 			extends: ['@remix-run/eslint-config', 'plugin:tailwindcss/recommended'],
 			plugins: [...corePlugins, ...reactPlugins],
-			rules: [...coreRules, ...reactRules],
+			rules: { ...coreRules, ...reactRules },
 		},
 	],
 };
