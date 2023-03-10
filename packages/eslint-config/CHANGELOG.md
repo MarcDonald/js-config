@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.0.0...@marcdonald/eslint-config@2.0.1) (2023-03-10)
+
+**Note:** Version bump only for package @marcdonald/eslint-config
+
 # [2.0.0](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@1.2.10...@marcdonald/eslint-config@2.0.0) (2023-03-10)
 
 - feat(eslint-config)!: lint rule clean up ([475e7e7](https://github.com/marcdonald/js-config/commit/475e7e7ce3aed9b5e05ea3ee9a609ac8ce9a8fbf))
