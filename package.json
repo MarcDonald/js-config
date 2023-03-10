@@ -1,21 +1,30 @@
 {
-  "name": "js-config",
-  "description": "Monorepo for JS config packages",
-  "author": "Marc Donald",
-  "license": "MIT",
-  "repository": "https://github.com/marcdonald/js-config",
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
-    "@marcdonald/commitlint-config": "*",
-    "@commitlint/config-lerna-scopes": "^17.4.2",
-    "husky": "^8.0.3",
-    "lerna": "^6.5.1"
-  },
-  "scripts": {
-    "publish": "lerna publish --yes --conventional-commits",
-    "prepare": "husky install"
-  }
+	"name": "js-config",
+	"description": "Monorepo for JS config packages",
+	"author": "Marc Donald",
+	"license": "MIT",
+	"repository": "https://github.com/marcdonald/js-config",
+	"workspaces": [
+		"packages/*"
+	],
+	"prettier": "@marcdonald/prettier-config",
+	"eslintConfig": {
+		"extends": [
+			"@marcdonald/eslint-config"
+		]
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.4.4",
+		"@marcdonald/commitlint-config": "*",
+		"@marcdonald/prettier-config": "*",
+		"@marcdonald/eslint-config": "*",
+		"@marcdonald/lint-staged-config": "*",
+		"@commitlint/config-lerna-scopes": "^17.4.2",
+		"husky": "^8.0.3",
+		"lerna": "^6.5.1"
+	},
+	"scripts": {
+		"publish": "lerna publish --yes --conventional-commits",
+		"prepare": "husky install"
+	}
 }

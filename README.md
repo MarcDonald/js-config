@@ -24,4 +24,3 @@ Add the following to your `~/.npmrc`
 ### [commitlint-config](./packages/commitlint-config)
 
 ![commitlint-config version](https://img.shields.io/github/package-json/v/marcdonald/js-config?filename=commitlint-config)
-

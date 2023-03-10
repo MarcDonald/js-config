@@ -8,8 +8,6 @@ Add the following to your `commitlint.config.js` file
 
 ```javascript
 module.exports = {
-	extends: [
-		'@marcdonald/commitlint-config',
-	],
+	extends: ['@marcdonald/commitlint-config'],
 };
 ```

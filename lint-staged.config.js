@@ -1,1 +1,1 @@
-module.exports = require('@marcdonald/lint-staged-config')
+module.exports = require('@marcdonald/lint-staged-config');
