@@ -1,4 +1,4 @@
-const corePlugins = require('./plugins/core');
+const core = require('./index');
 
 /**
  * @see https://github.com/eslint/eslint/issues/3458
@@ -7,6 +7,7 @@ const corePlugins = require('./plugins/core');
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
+	...core,
 	env: {
 		browser: false,
 		node: true,

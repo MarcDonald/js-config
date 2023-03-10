@@ -1,6 +1,9 @@
+const corePlugins = require('./plugins/core');
+const reactPlugins = require('./plugins/react');
 const coreRules = require('./rules/core');
 const reactRules = require('./rules/react');
-const corePlugins = require('./plugins/core');
+
+const core = require('./index');
 
 /**
  * @see https://github.com/eslint/eslint/issues/3458
@@ -9,20 +12,16 @@ const corePlugins = require('./plugins/core');
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-	root: true,
+	...core,
 	env: {
 		browser: true,
 		node: true,
 		es6: true,
 	},
-	parserOptions: {
-		ecmaVersion: 8,
-		sourceType: 'module',
-	},
-	ignorePatterns: ['node_modules/*'],
 	extends: ['eslint:recommended', 'plugin:tailwindcss/recommended'],
-	rules: { ...coreRules },
+	ignorePatterns: ['node_modules/*'],
 	overrides: [
+		...core.overrides,
 		{
 			files: ['**/*.ts?(x)'],
 			parser: '@typescript-eslint/parser',
@@ -30,8 +29,8 @@ module.exports = {
 				react: {
 					version: 'detect',
 					tailwindcss: {
-						callees: ['cn']
-					}
+						callees: ['cn'],
+					},
 				},
 			},
 			env: {
@@ -39,7 +38,7 @@ module.exports = {
 				node: true,
 				es6: true,
 			},
-			plugins: [...corePlugins, 'react', 'react-hooks', 'jsx-a11y'],
+			plugins: [...corePlugins, ...reactPlugins],
 			rules: {
 				...coreRules,
 				...reactRules,

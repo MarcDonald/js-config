@@ -1,6 +1,8 @@
+const corePlugins = require('./plugins/core');
+const reactPlugins = require('./plugins/react');
+const react = require('./react');
 const coreRules = require('./rules/core');
 const reactRules = require('./rules/react');
-const corePlugins = require('./plugins/core');
 
 /**
  * @see https://github.com/eslint/eslint/issues/3458
@@ -9,16 +11,7 @@ const corePlugins = require('./plugins/core');
 require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
-	root: true,
-	env: {
-		browser: true,
-		node: true,
-		es6: true,
-	},
-	parserOptions: {
-		ecmaVersion: 8,
-		sourceType: 'module',
-	},
+	...react,
 	overrides: [
 		{
 			files: ['**/*.ts?(x)'],
@@ -27,16 +20,13 @@ module.exports = {
 				react: {
 					version: 'detect',
 					tailwindcss: {
-						callees: ['cn']
-					}
+						callees: ['cn'],
+					},
 				},
 			},
 			extends: ['@remix-run/eslint-config', 'plugin:tailwindcss/recommended'],
-			plugins: [...corePlugins, 'react-hooks', 'tailwindcss'],
-			rules: {
-				...coreRules,
-				...reactRules,
-			},
+			plugins: [...corePlugins, ...reactPlugins],
+			rules: [...coreRules, ...reactRules],
 		},
 	],
 };
