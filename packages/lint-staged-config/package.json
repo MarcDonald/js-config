@@ -11,6 +11,8 @@
   "license": "MIT",
   "author": "Marc Donald",
   "peerDependencies": {
-    "lint-staged": "13.x"
+    "lint-staged": "13.x",
+    "@marcdonald/eslint-config": "*",
+    "@marcdonald/prettier-config": "*"
   }
 }
