@@ -25,6 +25,10 @@
 	},
 	"scripts": {
 		"publish": "lerna publish --yes --conventional-commits",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"format": "prettier -c .",
+		"format:fix": "prettier -c --write ."
 	}
 }

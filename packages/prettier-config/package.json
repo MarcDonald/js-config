@@ -8,5 +8,11 @@
 	},
 	"description": "Standard prettier config",
 	"main": "index.js",
-	"author": "Marc Donald"
+	"author": "Marc Donald",
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"format": "prettier -c .",
+		"format:fix": "prettier -c --write ."
+	}
 }

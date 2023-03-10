@@ -25,6 +25,10 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
+      - run: npx lerna run lint --since=origin/main
+      - run: npx lerna run format --since=origin/main
+      - run: npx lerna run test --since=origin/main
+      - run: npx lerna run build --since=origin/main
       - run: npm run publish
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}

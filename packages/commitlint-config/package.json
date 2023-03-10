@@ -18,5 +18,11 @@
 	},
 	"peerDependencies": {
 		"@commitlint/cli": "17.x"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"format": "prettier -c .",
+		"format:fix": "prettier -c --write ."
 	}
 }

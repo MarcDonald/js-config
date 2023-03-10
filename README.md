@@ -23,4 +23,8 @@ Add the following to your `~/.npmrc`
 
 ### [commitlint-config](./packages/commitlint-config)
 
-![commitlint-config version](https://img.shields.io/github/package-json/v/marcdonald/js-config?filename=commitlint-config)
+![commitlint-config version](https://img.shields.io/github/package-json/v/marcdonald/js-config?filename=packages%2Fcommitlint-config%2Fpackage.json)
+
+### [lint-staged-config](./packages/lint-staged-config)
+
+![commitlint-config version](https://img.shields.io/github/package-json/v/marcdonald/js-config?filename=packages%2Flint-staged-config%2Fpackage.json)
