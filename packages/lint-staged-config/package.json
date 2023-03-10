@@ -1,0 +1,16 @@
+{
+  "name": "@marcdonald/lint-staged-config",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcdonald/js-config.git",
+    "directory": "packages/lint-staged-config"
+  },
+  "description": "Standard lint-staged config",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Marc Donald",
+  "peerDependencies": {
+    "lint-staged": "13.x"
+  }
+}
