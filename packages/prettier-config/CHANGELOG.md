@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/marcdonald/js-config/compare/@marcdonald/prettier-config@1.1.0...@marcdonald/prettier-config@1.1.1) (2023-03-10)
+
+### Bug Fixes
+
+- **prettier-config:** fix incorrect plugins property ([10a23e9](https://github.com/marcdonald/js-config/commit/10a23e96cffc8ddca7931e35f8708335d33c938e))
+
 # [1.1.0](https://github.com/marcdonald/js-config/compare/@marcdonald/prettier-config@1.0.11...@marcdonald/prettier-config@1.1.0) (2023-03-10)
 
 ### Features
