@@ -6,6 +6,9 @@
 		"url": "git+https://github.com/marcdonald/js-config.git",
 		"directory": "packages/prettier-config"
 	},
+	"dependencies": {
+		"prettier-plugin-tailwindcss": "^0.2.4"
+	},
 	"description": "Standard prettier config",
 	"main": "index.js",
 	"author": "Marc Donald",
