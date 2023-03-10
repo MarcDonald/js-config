@@ -7,9 +7,5 @@ Standard lint-staged config
 Add the following to your `lint-staged.config.js` file
 
 ```javascript
-module.exports = {
-	extends: [
-		'@marcdonald/commitlint-config',
-	],
-};
+module.exports = require('@marcdonald/lint-staged-config')
 ```
