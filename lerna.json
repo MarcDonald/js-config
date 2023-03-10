@@ -2,15 +2,17 @@
 	"$schema": "node_modules/lerna/schemas/lerna-schema.json",
 	"useWorkspaces": true,
 	"version": "independent",
-	"packages": ["packages/*"],
-	"ignoreChanges": [
-    "**/CHANGELOG.md",
-    "**/node_modules/**",
-    "**/*.md"
+	"packages": [
+		"packages/*"
 	],
-	"command": {
-		"publish": {
-			"registry": "https://npm.pkg.github.com"
-		}
-	}
+	"ignoreChanges": [
+		"**/CHANGELOG.md",
+		"**/node_modules/**",
+		"**/*.md"
+	],
+	"registry": "https://npm.pkg.github.com",
+	"allowBranch": [
+		"main"
+	],
+	"message": "chore: release new versions"
 }
