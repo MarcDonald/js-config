@@ -9,6 +9,9 @@
 	"dependencies": {
 		"prettier-plugin-tailwindcss": "^0.2.4"
 	},
+	"peerDependencies": {
+		"prettier-plugin-tailwindcss": "^0.2.4"
+	},
 	"description": "Standard prettier config",
 	"main": "index.js",
 	"author": "Marc Donald",
