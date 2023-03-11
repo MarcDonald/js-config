@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.1](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.1.0...@marcdonald/eslint-config@2.1.1) (2023-03-11)
+
+### Bug Fixes
+
+- **eslint-config:** add additional test directories ([1d07ac3](https://github.com/marcdonald/js-config/commit/1d07ac3ab0e9c3b9cbc42919506143b9ec03d735))
+
 # [2.1.0](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.0.2...@marcdonald/eslint-config@2.1.0) (2023-03-11)
 
 ### Features
