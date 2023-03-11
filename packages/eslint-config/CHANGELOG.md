@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.0.2...@marcdonald/eslint-config@2.1.0) (2023-03-11)
+
+### Features
+
+- **eslint-config:** add vitest-globals ([017ad98](https://github.com/marcdonald/js-config/commit/017ad9810bd1ef5090c74ff1cef40e4ba964a280))
+
 ## [2.0.2](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.0.1...@marcdonald/eslint-config@2.0.2) (2023-03-10)
 
 ### Bug Fixes
