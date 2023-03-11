@@ -14,7 +14,7 @@ module.exports = {
 		amd: true,
 		node: true,
 	},
-	extends: ['eslint:recommended'],
+	extends: ['eslint:recommended', 'plugin:vitest-globals/recommended'],
 	ignorePatterns: ['node_modules/*'],
 	overrides: [
 		{
@@ -22,6 +22,16 @@ module.exports = {
 			parser: '@typescript-eslint/parser',
 			plugins: ['@typescript-eslint/eslint-plugin'],
 			rules: { ...coreRules, ...coreTypescript },
+		},
+		{
+			files: [
+				'**/__tests__/*.{j,t}s?(x)',
+				'**/*.spec.{j,t}s?(x)',
+				'**/*.test.{j,t}s?(x)',
+			],
+			env: {
+				'vitest-globals/env': true,
+			},
 		},
 	],
 	parserOptions: {
