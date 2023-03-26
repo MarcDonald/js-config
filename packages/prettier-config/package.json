@@ -9,7 +9,7 @@
 	"dependencies": {
 		"prettier-plugin-tailwindcss": "^0.2.4"
 	},
-	"peerDependencies": {
+	"optionalDependencies": {
 		"prettier-plugin-tailwindcss": "^0.2.4"
 	},
 	"description": "Standard prettier config",
