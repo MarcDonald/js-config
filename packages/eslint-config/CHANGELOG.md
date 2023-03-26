@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.1.1...@marcdonald/eslint-config@2.1.2) (2023-03-26)
+
+### Bug Fixes
+
+- **eslint-config:** disable no-unused-vars when variable starts with an underscore ([e6030dd](https://github.com/marcdonald/js-config/commit/e6030ddc71df1380a4edad2894b22a81a39f0bb4))
+
 ## [2.1.1](https://github.com/marcdonald/js-config/compare/@marcdonald/eslint-config@2.1.0...@marcdonald/eslint-config@2.1.1) (2023-03-11)
 
 ### Bug Fixes
