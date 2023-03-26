@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/marcdonald/js-config/compare/@marcdonald/prettier-config@1.1.1...@marcdonald/prettier-config@1.1.2) (2023-03-26)
+
+### Bug Fixes
+
+- **prettier-config:** separate tailwind prettier config ([cbdba45](https://github.com/marcdonald/js-config/commit/cbdba45ea21d7383d95cc8cb26512b0eea8a28fe))
+
 ## [1.1.1](https://github.com/marcdonald/js-config/compare/@marcdonald/prettier-config@1.1.0...@marcdonald/prettier-config@1.1.1) (2023-03-10)
 
 ### Bug Fixes
